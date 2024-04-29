@@ -1,5 +1,5 @@
 本Repositories是毕业课题的主要代码和主要节点数据，其中
 Tm_sum.csv为蛋白质熔融温度数据的最终结果，包含了39889个蛋白质Uniprot ID及其Tm数值。
-OGT_sum.csv为蛋白质宿主最适生长温度OGT的最终结果，包含了2438784个reviewed蛋白质Uniprot ID及其Tm数值。
+OGT_high.csv为蛋白质宿主最适生长温度OGT的最终结果，包含了59193个OGT>60度的reviewed蛋白质Uniprot ID及其Tm数值。
 model_preprocess.ipynb为预处理代码，主要包含获取蛋白质序列信息，筛选非同源蛋白和计算PSSM矩阵。
 model_architecture.ipynb为训练代码。
